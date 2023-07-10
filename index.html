@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Quiz App</title>
+
+    <!-- FontAwesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main id="main">
+      <div class="question">
+        <h1 id="question">Which language runs in a web browser ?</h1>
+      </div>
+      <div class="answer-container">
+        <div class="answer">
+          <input
+            type="radio"
+            name="answer"
+            class="answerRadio"
+            id="answer1"
+            value="Java"
+          />
+          <h4 id="ans1">Answer</h4>
+        </div>
+
+        <div class="answer">
+          <input
+            type="radio"
+            name="answer"
+            class="answerRadio"
+            id="answer2"
+            value="c"
+          />
+          <h4 id="ans2">Answer</h4>
+        </div>
+
+        <div class="answer">
+          <input
+            type="radio"
+            name="answer"
+            class="answerRadio"
+            id="answer3"
+            value="Python"
+          />
+          <h4 id="ans3">Answer</h4>
+        </div>
+
+        <div class="answer">
+          <input
+            type="radio"
+            name="answer"
+            id="answer4"
+            class="answerRadio"
+            value="JavaScript"
+          />
+          <h4 id="ans4">Answer</h4>
+        </div>
+      </div>
+      <button type="button" class="submit" id="submit">Submit</button>
+    </main>
+
+    <!-- custom js -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
